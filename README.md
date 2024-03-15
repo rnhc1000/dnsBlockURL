@@ -26,7 +26,7 @@ legal and justice requirements near real-time with the authorities request.
 - [_Built with_](#built-with)
 - [_What I practiced_](#what-i-practiced)
 - [_Continued development_](#continued-development)
-  - [_Useful resources_](#useful-resources)
+	- [_Useful resources_](#useful-resources)
 - [_Author_](#author)
 - [Acknowledgments](#acknowledgments)
 

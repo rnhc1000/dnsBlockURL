@@ -15,7 +15,7 @@ public class BloqueioAnatelEntity implements Serializable {
   private static final long serialVersionUID=1L;
 
   @Id
-  private String id;
+  private Integer id;
   private Integer serial;
   private Timestamp created_at;
 
@@ -26,19 +26,19 @@ public class BloqueioAnatelEntity implements Serializable {
   public BloqueioAnatelEntity() {
   }
 
-  public BloqueioAnatelEntity(String id, Integer serial, Timestamp created_at, String url, String status) {
+  public BloqueioAnatelEntity(Integer id, String serial, String created_at, String url, String status) {
     this.id = id;
-    this.serial = serial;
-    this.created_at = created_at;
+    this.serial = Integer.valueOf(serial);
+    this.created_at = Timestamp.valueOf(created_at);
     this.url = url;
     this.status = status;
   }
 
-  public String getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(String id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
