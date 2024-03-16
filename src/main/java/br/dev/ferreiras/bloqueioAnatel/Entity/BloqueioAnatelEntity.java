@@ -5,41 +5,40 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serial;
 import java.io.Serializable;
-import java.sql.Timestamp;
+import java.math.BigInteger;
+import java.time.LocalDateTime;
 import java.util.Objects;
 
-@Document (collection = "blockedsites")
+@Document (collection = "blockedSites")
 public class BloqueioAnatelEntity implements Serializable {
 
   @Serial
   private static final long serialVersionUID=1L;
 
   @Id
-  private Integer id;
+  private BigInteger _id;
   private Integer serial;
-  private Timestamp created_at;
-
+  private LocalDateTime created_at;
   private String url;
-
   private String status;
 
   public BloqueioAnatelEntity() {
   }
 
-  public BloqueioAnatelEntity(Integer id, String serial, String created_at, String url, String status) {
-    this.id = id;
+  public BloqueioAnatelEntity(BigInteger _id, String serial, LocalDateTime created_at, String url, String status) {
+    this._id = _id;
     this.serial = Integer.valueOf(serial);
-    this.created_at = Timestamp.valueOf(created_at);
+    this.created_at = created_at;
     this.url = url;
     this.status = status;
   }
 
-  public Integer getId() {
-    return id;
+  public BigInteger getId() {
+    return _id;
   }
 
-  public void setId(Integer id) {
-    this.id = id;
+  public void setId(BigInteger _id) {
+    this._id = _id;
   }
 
   public Integer getSerial() {
@@ -50,11 +49,11 @@ public class BloqueioAnatelEntity implements Serializable {
     this.serial = serial;
   }
 
-  public Timestamp getCreated_at() {
+  public LocalDateTime getCreated_at() {
     return created_at;
   }
 
-  public void setCreated_at(Timestamp created_at) {
+  public void setCreated_at(LocalDateTime created_at) {
     this.created_at = created_at;
   }
 
@@ -78,18 +77,18 @@ public class BloqueioAnatelEntity implements Serializable {
   public boolean equals(Object o) {
     if (this == o) return true;
     if (!(o instanceof BloqueioAnatelEntity that)) return false;
-    return Objects.equals(id, that.id);
+    return Objects.equals(_id, that._id);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id);
+    return Objects.hash(_id);
   }
 
   @Override
   public String toString() {
     return "BloqueioAnatelEntity{" +
-            "id='" + id + '\'' +
+            "id='" + _id + '\'' +
             ", serial=" + serial +
             ", created_at=" + created_at +
             ", url='" + url + '\'' +
