@@ -1,4 +1,4 @@
-package br.dev.ferreiras.bloqueioAnatel.Entity;
+package br.dev.ferreiras.bloqueioAnatel.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

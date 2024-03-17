@@ -1,15 +1,8 @@
 package br.dev.ferreiras.bloqueioAnatel.utils;
 
-import br.dev.ferreiras.bloqueioAnatel.Entity.BloqueioAnatelEntity;
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVParser;
-import org.apache.commons.csv.CSVRecord;
+import br.dev.ferreiras.bloqueioAnatel.entity.BloqueioAnatelEntity;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 

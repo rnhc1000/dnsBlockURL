@@ -1,6 +1,6 @@
-package br.dev.ferreiras.bloqueioAnatel.Repository;
+package br.dev.ferreiras.bloqueioAnatel.repository;
 
-import br.dev.ferreiras.bloqueioAnatel.Entity.BloqueioAnatelEntity;
+import br.dev.ferreiras.bloqueioAnatel.entity.BloqueioAnatelEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 
