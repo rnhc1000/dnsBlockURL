@@ -37,7 +37,13 @@ legal and justice requirements near real-time with the authorities request.
 - Live Site URL: [] 
 ## _Built with_
 
- ![](https://ferreiras.dev.br/assets/images/icons/java-icon.svg)| ![](https://ferreiras.dev.br/assets/images/icons/git-scm-icon.svg) | ![](https://ferreiras.dev.br/assets/images/icons/icons8-intellij-idea.svg) | ![](https://ferreiras.dev.br/assets/images/icons/linux-original.svg) | ![](https://ferreiras.dev.br/assets/images/icons/icons8-visual-studio-code.svg)
+ ![](https://ferreiras.dev.br/assets/images/icons/java-icon.svg) |
+ ![](https://ferreiras.dev.br/assets/images/icons/spring.svg) |
+ ![](https://ferreiras.dev.br/assets/images/icons/aws.svg) |  
+ ![](https://ferreiras.dev.br/assets/images/icons/git-scm-icon.svg) | 
+ ![](https://ferreiras.dev.br/assets/images/icons/icons8-intellij-idea.svg) | 
+ ![](https://ferreiras.dev.br/assets/images/icons/linux-original.svg) | 
+ ![](https://ferreiras.dev.br/assets/images/icons/icons8-visual-studio-code.svg)
 
  ## _What I practiced_
 ```java
