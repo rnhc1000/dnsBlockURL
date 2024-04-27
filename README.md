@@ -65,9 +65,6 @@ public class BlockedSites {
     String line = null;
     String pathOne = "/home/rferreira/dev/src/dns/primario/rpz/sites.csv";
     String pathTwo = "/home/rferreira/dev/src/dns/primario/rpz/rpz.txt";
-    int[] s= {1,2,3,4,5};
-    int[] t = Arrays.copyOf(s,3);
-    System.out.println(Arrays.toString(t));
     List<String> blockedSitesOne = new ArrayList<>();
     try (BufferedReader br = new BufferedReader(new FileReader(pathOne))) {
       while ((line = br.readLine()) != null) {

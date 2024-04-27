@@ -1,4 +1,4 @@
-package pak;
+package br.dev.ferreiras.bloqueioanatel.utils;
 
 import java.io.*;
 import java.util.*;
