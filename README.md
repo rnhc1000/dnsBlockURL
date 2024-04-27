@@ -39,11 +39,16 @@ legal and justice requirements near real-time with the authorities request.
 
  ![](https://ferreiras.dev.br/assets/images/icons/java-icon.svg) |
  ![](https://ferreiras.dev.br/assets/images/icons/spring.svg) |
- ![](https://ferreiras.dev.br/assets/images/icons/aws.svg) |  
- ![](https://ferreiras.dev.br/assets/images/icons/git-scm-icon.svg) | 
+ ![](https://ferreiras.dev.br/assets/images/icons/mongodb.svg) | 
+ ![](https://ferreiras.dev.br/assets/images/icons/icons8-javascript.svg) | 
+ ![](https://ferreiras.dev.br/assets/images/icons/css3-original-wordmark.svg) | 
+ ![](https://ferreiras.dev.br/assets/images/icons/html5-original-wordmark.svg) |
+ ![](https://ferreiras.dev.br/assets/images/icons/git-scm-icon.svg) |
  ![](https://ferreiras.dev.br/assets/images/icons/icons8-intellij-idea.svg) | 
  ![](https://ferreiras.dev.br/assets/images/icons/linux-original.svg) | 
- ![](https://ferreiras.dev.br/assets/images/icons/icons8-visual-studio-code.svg)
+ ![](https://ferreiras.dev.br/assets/images/icons/icons8-visual-studio-code.svg) |
+ ![](https://ferreiras.dev.br/assets/images/icons/aws.svg) |  
+
 
  ## _What I practiced_
 ```java
