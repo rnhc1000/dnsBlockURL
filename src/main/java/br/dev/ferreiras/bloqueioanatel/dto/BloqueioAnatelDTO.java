@@ -1,9 +1,9 @@
-package br.dev.ferreiras.bloqueioAnatel.dto;
-
-import br.dev.ferreiras.bloqueioAnatel.entity.BloqueioAnatelEntity;
+package br.dev.ferreiras.bloqueioanatel.dto;
 
 import java.math.BigInteger;
 import java.time.LocalDateTime;
+
+import br.dev.ferreiras.bloqueioanatel.entity.BloqueioAnatelEntity;
 
 public class BloqueioAnatelDTO {
   private BigInteger _id;

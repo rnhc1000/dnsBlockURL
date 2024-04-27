@@ -1,13 +1,14 @@
-package br.dev.ferreiras.bloqueioAnatel.controllers.handlers;
+package br.dev.ferreiras.bloqueioanatel.controllers.handlers;
 
-import br.dev.ferreiras.bloqueioAnatel.dto.CustomError;
-import br.dev.ferreiras.bloqueioAnatel.services.exceptions.DatabaseException;
-import br.dev.ferreiras.bloqueioAnatel.services.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+
+import br.dev.ferreiras.bloqueioanatel.dto.CustomError;
+import br.dev.ferreiras.bloqueioanatel.services.exceptions.DatabaseException;
+import br.dev.ferreiras.bloqueioanatel.services.exceptions.ResourceNotFoundException;
 
 import java.time.Instant;
 

@@ -1,4 +1,4 @@
-package br.dev.ferreiras.bloqueioAnatel;
+package br.dev.ferreiras.bloqueioanatel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,10 +1,11 @@
-package br.dev.ferreiras.bloqueioAnatel.services;
+package br.dev.ferreiras.bloqueioanatel.services;
 
-import br.dev.ferreiras.bloqueioAnatel.dto.BloqueioAnatelDTO;
-import br.dev.ferreiras.bloqueioAnatel.entity.BloqueioAnatelEntity;
-import br.dev.ferreiras.bloqueioAnatel.repository.BloqueioAnatelRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import br.dev.ferreiras.bloqueioanatel.dto.BloqueioAnatelDTO;
+import br.dev.ferreiras.bloqueioanatel.entity.BloqueioAnatelEntity;
+import br.dev.ferreiras.bloqueioanatel.repository.BloqueioAnatelRepository;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package br.dev.ferreiras.bloqueioAnatel.dto;
+package br.dev.ferreiras.bloqueioanatel.dto;
 
 import java.time.Instant;
 
