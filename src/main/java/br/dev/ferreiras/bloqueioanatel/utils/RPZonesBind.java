@@ -63,14 +63,13 @@ public class RPZonesBind {
   public static void writeBlockedSites(Set<String> blockedSites) throws IOException {
     String filePath = "/home/rferreira/dev/pakTelecom/src/dns/primario/rpz/";
     String fileName = "ascendingBlockedSitesApr24.txt";
-    boolean OK = fileExists(filePath, fileName);
+    boolean existsFile = fileExists(filePath, fileName);
     int count = 0;
 
-    if (OK) {
+    if (existsFile) {
       try (FileWriter fw = new FileWriter(filePath.concat(fileName))) {
         List<String> sortedList = new ArrayList<>();
-//        sortedList = blockedSites.stream().sorted().toList();
-//        System.out.println(sortedList.size());
+
         for (String sites : blockedSites) {
           sortedList.add(sites.concat("\s\s\s\sIN\s\s\s\sCNAME\s\s\s\s."));
         }
