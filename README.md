@@ -26,7 +26,7 @@ legal and justice requirements near real-time with the authorities request.
 - [_Built with_](#built-with)
 - [_What I practiced_](#what-i-practiced)
 - [_Continued development_](#continued-development)
-	- [_Useful resources_](#useful-resources)
+  - [_Useful resources_](#useful-resources)
 - [_Author_](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -36,18 +36,9 @@ legal and justice requirements near real-time with the authorities request.
 ## _Links_
 - Live Site URL: [] 
 ## _Built with_
+[![My Skills](https://skillicons.dev/icons?i=java,spring,mongodb,idea,redhat,aws,git,javascript,css,html)](https://skillicons.dev)
 
- ![](https://ferreiras.dev.br/assets/images/icons/java-icon.svg) |
- ![](https://ferreiras.dev.br/assets/images/icons/spring.svg) |
- ![](https://ferreiras.dev.br/assets/images/icons/mongodb.svg) | 
- ![](https://ferreiras.dev.br/assets/images/icons/icons8-javascript.svg) | 
- ![](https://ferreiras.dev.br/assets/images/icons/css3-original-wordmark.svg) | 
- ![](https://ferreiras.dev.br/assets/images/icons/html5-original-wordmark.svg) |
- ![](https://ferreiras.dev.br/assets/images/icons/git-scm-icon.svg) |
- ![](https://ferreiras.dev.br/assets/images/icons/icons8-intellij-idea.svg) | 
- ![](https://ferreiras.dev.br/assets/images/icons/linux-original.svg) | 
- ![](https://ferreiras.dev.br/assets/images/icons/icons8-visual-studio-code.svg) |
- ![](https://ferreiras.dev.br/assets/images/icons/aws.svg) |  
+  
 
 
  ## _What I practiced_
